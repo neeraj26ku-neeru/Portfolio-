@@ -104,53 +104,6 @@ portfolio/
 Run Locally
 
 Download or clone this repository.
-
-Confirm that index.html, style.css, and script.js use these exact filenames.
-
-Keep the complete assets folder beside the three code files.
-
-Open index.html in a browser.
-
-You can also open the project in VS Code and use the Live Server extension.
-
-Add or Update a Project
-
-Open script.js and find the PROJECTS array. Copy an existing project object and update its content:
-
-{
-  id: "unique-project-id",
-  number: "04",
-  title: "Project Name",
-  category: ["Power BI", "SQL"],
-  summary: "Short project description",
-  question: "Business question solved by the project",
-  process: ["Step 1", "Step 2", "Step 3"],
-  insights: ["Insight 1", "Insight 2"],
-  tools: ["Power BI", "SQL", "Excel"],
-  repoUrl: "https://github.com/USERNAME/REPOSITORY",
-  liveUrl: "https://YOUR-PUBLIC-DASHBOARD-LINK",
-  accent: "#38d9ff",
-  glow: "rgba(56,217,255,.14)"
-}
-
-Use an empty liveUrl when the project does not have a safe public dashboard. Never upload confidential company or personal data.
-
-Deploy on GitHub Pages
-
-Create a public GitHub repository.
-
-Upload index.html, style.css, script.js, README.md, and the complete assets folder to the repository root.
-
-Make sure index.html is visible on the first level of the repository.
-
-Open Settings → Pages.
-
-Under Build and deployment, select Deploy from a branch.
-
-Select the main branch and / (root) folder, then click Save.
-
-Wait for GitHub to show the live website URL.
-
 Contact
 
 LinkedIn
